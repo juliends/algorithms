@@ -1,5 +1,5 @@
 class Array
-  def quicksort
+  def quick_sort
     return [] if empty?
     pivot = delete_at(rand(size))
     left, right = partition(&pivot.method(:>))
@@ -9,7 +9,7 @@ class Array
 end
 
 array = [1,4,1,3,4,1,3,3]
-p array.quicksort
+p array.quick_sort
 
 # def quick_sort(array)
 #   return [] if array.empty?
