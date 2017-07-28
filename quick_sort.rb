@@ -10,7 +10,3 @@ end
 
 array = [1,4,1,3,4,1,3,3]
 p array.quick_sort
-
-# def quick_sort(array)
-#   return [] if array.empty?
-# end
