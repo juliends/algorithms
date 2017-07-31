@@ -24,6 +24,9 @@ def merge(l, r)
   output.concat(l).concat(r)
 end
 
+p array = [7, 3, 8, 9, 1, 4, 23, 73, 2]
+p merge_sort(array)
+
 # def merge_sort(array)
 #   if array.length <= 1
 #     array
@@ -46,6 +49,3 @@ end
 #     [right.first] + merge(right[1..right.length])
 #   end
 # end
-
-p array = [7, 3, 8, 9, 1, 4, 23, 73, 2]
-p merge_sort(array)
