@@ -10,3 +10,11 @@ end
 array = [1, 2, 3, 4, 1, 0]
 s = 2
 p sum_pairs(array, s)
+
+# -----------------------------------------------
+
+# def sum_pairs(ints, s)
+#   p ints
+#   p s
+#   p result =  ints.combination(2).select { |x, y| x + y == s }.flatten
+# end
